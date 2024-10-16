@@ -1,6 +1,7 @@
 To Disable a Service:
 Double-click the service.
 Click on "Startup type" and select "Disable."
+
 Services to Disable:
 Auto Time Zone Updater
 AVCTP Service (Breaks Wireless Headphones)
