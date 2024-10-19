@@ -1,0 +1,9 @@
+1. Download BleachBit: https://www.bleachbit.org/download/windows.
+
+2. Open the installer and install the program.
+
+3. In the opened window, select all boxes and click "Clean." (This process can take a long time.)
+
+4. After that, search for "Disk Cleanup."
+
+5. Select all boxes and click "OK."

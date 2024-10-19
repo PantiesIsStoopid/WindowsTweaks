@@ -1,0 +1,36 @@
+To Disable a Service:
+Double-click the service.
+Click on "Startup type" and select "Disable."
+
+Services to Disable:
+Auto Time Zone Updater
+AVCTP Service (Breaks Wireless Headphones)
+BitLocker Drive Encryption Service
+Certificate Propagation
+Block Level Backup Engine Service
+Cellular Time
+Connect User Experiences and Telemetry
+Downloaded Maps Manager
+Fax
+File History Service
+IP Helper
+Microsoft Keyboard Filter
+Netlogon
+Parental Control
+Print Spooler
+Remote Registry
+TCP/IP NetBIOS Helper
+Touch Keyboard and Handwriting
+Contact Data_ea4df
+Encrypting File System (EFS)
+Geolocation
+Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)
+Microsoft Edge Update Service (edgeupdate)
+Microsoft Update Health Service
+All remote services (if you don't use them)
+Secondary Logon
+All Smart Card services
+If using HDD, enable SysMain
+Windows Backup
+Windows Insider Service
+Windows Search

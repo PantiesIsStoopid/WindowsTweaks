@@ -1,0 +1,15 @@
+Instructions for Application Optimization and Tweaking
+
+Launch Optimizer.exe:
+
+Open Optimizer.exe and ensure that all desired optimizations are selected.
+Install Ultimate Tweaks:
+
+Run the Ultimate Tweaks installer and follow the prompts to complete the installation.
+Restart in Safe Mode:
+
+Reboot the system into Safe Mode.
+Run Optimizer:
+
+Execute Optimizer.exe with the /disabledefender switch to disable Windows Defender.
+Alternatively, run Optimizer.exe with the /restart=disabledefender switch for automated disabling.
