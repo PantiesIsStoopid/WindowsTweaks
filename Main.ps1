@@ -556,6 +556,19 @@ Write-Output "Miscellaneous Batch File executed successfully."
 Write-Output "Running EXM Free Tweaking Utility..."
 & '.\SourceApps\EXM Free Tweaking Utility V7.1.cmd'
 
+# Wait for the command to finish
+$process = Start-Process -FilePath '.\SourceApps\EXM Free Tweaking Utility V7.1.cmd' -Wait
+
+# Check if the process has exited
+if ($process.HasExited) {
+  Remove-Item -Recurse -Force 'C:\exm'
+  Write-Output "Directory C:\exm has been deleted."
+}
+else {
+  Write-Output "EXM Free Tweaking Utility is still running."
+}
+
+
 # Final Message to the User
 Write-Output "All tweaks and optimizations have been applied successfully. Please restart your computer to ensure all changes take effect."
 
