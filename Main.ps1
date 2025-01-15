@@ -557,6 +557,7 @@ Write-Output "Running EXM Free Tweaking Utility..."
 & '.\SourceApps\EXM Free Tweaking Utility V7.1.cmd'
 
 # Wait for the command to finish
+Start-Process -FilePath '.\SourceApps\EXM Free Network Utility V2.bat' -Wait
 $process = Start-Process -FilePath '.\SourceApps\EXM Free Tweaking Utility V7.1.cmd' -Wait
 
 # Check if the process has exited
