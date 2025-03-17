@@ -1,0 +1,9 @@
+[submodule "Submodules/winutil"]
+	path = Submodules/winutil
+	url = https://github.com/ChrisTitusTech/winutil.git
+[submodule "Submodules/UnattendedWinstall"]
+	path = Submodules/UnattendedWinstall
+	url = https://github.com/memstechtips/UnattendedWinstall.git
+[submodule "Submodules/nvidiaProfileInspector"]
+	path = Submodules/nvidiaProfileInspector
+	url = https://github.com/Orbmu2k/nvidiaProfileInspector.git
